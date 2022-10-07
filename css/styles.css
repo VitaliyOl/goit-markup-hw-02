@@ -155,6 +155,7 @@ body {
 
 .link-maps {
   color: var(--margin-white-color);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -162,6 +163,7 @@ body {
 
 .address .link {
   color: var(--footer-link-color);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
