@@ -89,7 +89,6 @@ body {
 .hero .button {
   background-color: #188ce8;
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -183,7 +182,6 @@ body {
   background-color: #f5f4fa;
   color: var(--prymary-text-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
