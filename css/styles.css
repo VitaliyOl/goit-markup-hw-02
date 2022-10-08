@@ -20,6 +20,28 @@ body {
   cursor: pointer;
 }
 
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway, cursive;
@@ -79,6 +101,7 @@ body {
 }
 
 .hero-title {
+  text-transform: uppercase;
   color: var(--margin-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -87,7 +110,8 @@ body {
 }
 
 .hero .button {
-  background-color: #188ce8;
+  background-color: var(--accent-color);
+  color: var(--margin-white-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -97,12 +121,12 @@ body {
 
 .hero .button:hover,
 .hero .button:focus {
-  background-color: var(--accent-color);
-  color: var(--margin-white-color);
+  background-color: #188ce8;
 }
 
 /* section features */
 .features .title {
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
