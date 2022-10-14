@@ -58,23 +58,23 @@ body {
 }
 
 /* nav */
-.site-nav {
+.nav-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.site-nav .link.current {
+.nav-list .link.current {
   color: var(--accent-color);
 }
 
-.site-nav .link {
+.nav-list .link {
   color: var(--prymary-text-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav-list .link:hover,
+.nav-list .link:focus {
   color: var(--accent-color);
 }
 
